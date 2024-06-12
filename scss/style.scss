@@ -99,6 +99,8 @@ body {
 
     // .header__social
     &__social {
+        display: flex;
+        justify-content: center;
     }
 
     // .header__icon
