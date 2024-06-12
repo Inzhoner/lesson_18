@@ -1,0 +1,14 @@
+{
+    "name": "Video Editor",
+    "short_name": "Video Editor",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#1ae999",
+    "background_color": "#1ae999",
+    "display": "standalone"
+}
