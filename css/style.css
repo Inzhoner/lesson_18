@@ -386,7 +386,7 @@ body {
   background: linear-gradient(180deg, hsla(0, 0%, 0%, 0.902) 0%, hsla(0, 0%, 0%, 0.988) 85.54%), url(../img/hero/bg.webp) center/cover;
 }
 .about__container {
-  padding-block: clamp(20px, 20px + 0.1959 * (100vw - 393px), 200px) clamp(35px, 35px + 0.1382 * (100vw - 393px), 162px);
+  padding-block: clamp(20px, 20px + 0.1959 * (100vw - 393px), 120px);
   text-align: center;
 }
 .about__description {

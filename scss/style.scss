@@ -278,8 +278,7 @@ body {
 
     // .about__container
     &__container {
-        padding-block: clamp(20px, 20px + 0.1959 * (100vw - 393px), 200px)
-            clamp(35px, 35px + 0.1382 * (100vw - 393px), 162px);
+        padding-block: clamp(20px, 20px + 0.1959 * (100vw - 393px), 120px);
         text-align: center;
     }
 
