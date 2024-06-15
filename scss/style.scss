@@ -471,6 +471,17 @@ body {
         }
     }
 
+    // .slider__icon
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: clamp(64px, 64px + 0.0881 * (100vw - 393px), 120px);
+        height: clamp(64px, 64px + 0.0881 * (100vw - 393px), 120px);
+        object-fit: cover;
+    }
+
     // .slider__img
     &__img {
         width: 100%;
@@ -478,12 +489,15 @@ body {
         object-fit: cover;
         aspect-ratio: 360 / 360;
         // або 1 \ 1
+        @media (width <= 393px) {
+            aspect-ratio: 193 / 193;
+        }
     }
 
     // .slider__label
     &__label {
         font-family: $mainFont;
-        font-size: 40px;
+        font-size: clamp(14px, 14px + 0.0522 * (100vw - 393px), 40px);
         font-weight: 700;
         line-height: 40px;
         text-transform: uppercase;
